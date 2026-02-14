@@ -82,3 +82,10 @@ Key Principles:
 ## 📌 Note
 
 This repository is a demonstration engine showcasing architecture patterns and real-time voice orchestration design.
+
+
+## Quick Start (Local)
+
+```bash
+pip install -r requirements.txt
+uvicorn app.main:app --reload
